@@ -1,0 +1,25 @@
+// Switch Statements in Practice
+
+const day = 'monday';
+
+switch (day) {
+    case 'monday': // day === 'monday'
+        console.log('plan coding projects');
+        console.log('begin programming');
+        break;
+    case 'tuesday':
+        console.log('bug Kevin');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday': ('write in blog');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('enjoy the weekend');
+        break;
+    default:
+        console.log('Not a valid day');
+}
