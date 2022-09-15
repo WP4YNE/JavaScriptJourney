@@ -1,0 +1,13 @@
+/* Statements in Practice
+
+
+*/
+
+3 + 4 // Expression - Value
+1997 // Expression - Value
+true && false && !false // Expression - Value
+
+if (23 > 10) {
+    const str = '23 is bigger';
+    console.log(str);
+} // Statements are full sentences

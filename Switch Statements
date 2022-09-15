@@ -14,7 +14,8 @@ switch (day) {
     case 'thursday':
         console.log('Write code examples');
         break;
-    case 'friday': ('write in blog');
+    case 'friday':
+        console.log('write in blog');
         break;
     case 'saturday':
     case 'sunday':
@@ -22,4 +23,21 @@ switch (day) {
         break;
     default:
         console.log('Not a valid day');
+}
+
+// If it were to be written by using Else If Statements, it will work however the above is written with a different syntax - the below will also be a little bit harder to read.
+
+if (day === 'monday') {
+    console.log('plan coding projects');
+    console.log('begin programming');
+} else if (day === 'tuesday') {
+    console.log('bug Kevin');
+} else if (day === 'wednesday' || day === 'thursday'); {
+    console.log('Write code examples');
+} else if (day === 'friday') {
+    console.log('write in blog');
+} else if (day === 'saturday' || day === 'sunday'); {
+    console.log('enjoy the weekend');
+} else {
+    console.log('Not a valid day');
 }
